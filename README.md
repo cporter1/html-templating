@@ -1,1 +1,1 @@
-# node-videosharing
+This is a Nodejs website using react and sql.
