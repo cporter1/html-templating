@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+var path = require('path');
+
 const port = 7000;
 
 const hbs = require('express-handlebars');
@@ -11,10 +13,11 @@ app.engine( 'hbs', hbs( {
   partialsDir: __dirname + '/views/partials/'
 }));
 
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
 	
 	res.render('main' , {layout: 'index'});
 });
+
 app.listen( port, () => console.log(`Online at port ${port}`));
