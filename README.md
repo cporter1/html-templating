@@ -1,1 +1,1 @@
-This is a Nodejs website using react and sql.
+This is a Nodejs website using handelbars.
