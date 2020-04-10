@@ -3,8 +3,14 @@
 		<h1>Colin Porter</h1>
 	</div>
 	<ul class='navigation'>
-		<a><li>Home</li></a>
-		<a><li>Portfolio</li></a>
-		<a><li>Contact</li></a>
+		<a><li><button id='homeButton'>Home</button></li></a>
+		<a><li><button id='porfolioButton'>Portfolio</button></li></a>
+		<a><li><button id='contactButton'>Contact</button></li></a>
 	</ul>
+	<script>
+		const homeButton = document.getElementById('homeButton');
+		homeButton.addEventListener('click', function(e) {
+				window.location.href = '/'
+			});
+	</script>
 </div>
