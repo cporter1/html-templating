@@ -17,7 +17,17 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
 	
-	res.render('main' , {layout: 'index'});
+	res.render('home' , {layout: 'index'});
+});
+
+app.get('/portfolio', (req, res) => {
+	
+	res.render('portfolio' , {layout: 'index'});
+});
+
+app.get('/contact', (req, res) => {
+	
+	res.render('contact' , {layout: 'index'});
 });
 
 app.listen( port, () => console.log(`Online at port ${port}`));
