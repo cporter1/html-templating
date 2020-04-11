@@ -84,16 +84,9 @@
 	display: block;
 	overflow: hidden;
 }
-.sidebar-image {
-	margin: auto;
-	left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-}
 
 .inner-body {
-	float: middle;
+	float: left;
 	width: 70%;
 	height: 100%;
 	display: inline-block;
