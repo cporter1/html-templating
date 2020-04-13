@@ -63,6 +63,7 @@
   display: inline-block;
   font-size: large;
   font-weight:bold;
+  cursor: pointer;
 }
 .navigation button:hover {color: #BCBCBC}
 
@@ -72,7 +73,7 @@
 
 .sidebar-left{
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 15%; /* Set the width of the sidebar */
+  width: 10%; /* Set the width of the sidebar */
   display: block;
   float: left;
   overflow: hidden;
@@ -80,17 +81,15 @@
 
 .sidebar-right{
 	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: 15%; /* Set the width of the sidebar */
+	width: 10%;
 	float: right;
 	display: block;
 	overflow: hidden;
-	border: 5px #011B67;
-
 }
 
 .sidebar-image {
 	background-repeat: repeat-y;
-	border-radius: 3px;
+	border-radius: 4px;
 }
 
 .inner-body {
