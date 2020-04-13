@@ -32,6 +32,9 @@
 	display: table-cell;
 	vertical-align: middle;
 }
+/* span {
+	font-weight: lighter;
+} */
 
 .navigation{
 	float: right;
