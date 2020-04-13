@@ -11,6 +11,7 @@
 	height: 100px;
 	display: block;
 	background-color: #011B67;
+	position: sticky;
 }
 .inner_header{
 	width: 95%;
@@ -72,8 +73,8 @@
 .sidebar-left{
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 15%; /* Set the width of the sidebar */
-  float: left;
   display: block;
+  float: left;
   overflow: hidden;
 }
 
@@ -83,11 +84,26 @@
 	float: right;
 	display: block;
 	overflow: hidden;
+	border: 5px #011B67;
+
+}
+
+.sidebar-image {
+	background-repeat: repeat-y;
+	border-radius: 3px;
 }
 
 .inner-body {
-	float: left;
 	width: 70%;
 	height: 100%;
 	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+
+.body-list {
+	list-style-type: square;
+	text-align: left;
+	font-size: larger;
+	margin-left: 10%;
 }
