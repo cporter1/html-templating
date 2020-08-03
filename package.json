@@ -2,7 +2,7 @@
   "name": "node-webresume",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,5 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
-    "start": "^5.1.0"
   }
 }
