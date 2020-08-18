@@ -2,6 +2,8 @@
 
 const express = require('express');
 const app = express();
+
+//path variable for working with local directories
 var path = require('path');
 
 //Use the envioremt's port variable otherwise use port 8081
@@ -19,6 +21,7 @@ app.engine( 'hbs', hbs( {
   partialsDir: __dirname + '/views/partials/'
 }));
 
+//Tells express to serve static files from the public directory
 app.use(express.static(path.join(__dirname, '/public')));
 
 // response to: URL/ . Renders home view with index layout
